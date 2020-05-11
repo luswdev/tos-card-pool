@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC:600|Varela+Round&display=swap');
+
+html {
+    min-height: 100vh;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+:focus {
+    outline: none;
+}
+
+* {
+    user-select: none;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: .3 !important;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body, main {
+    min-height: 100%;
+}
+
+.material-tooltip {
+    background: #455a64;
+    color: #BDBDBD;
+}
+
+.title-box {
+    align-items: flex-end;
+    text-align: left;
+    border-bottom: 1px solid #DAA520;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 6px;
+}
+
+.main-title {
+    padding: 5px 8px 0px 5px;
+    margin-bottom: 0;
+    color: #DAA520;
+    text-shadow: 3px 3px 1px #000;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.sub-title {
+    flex-grow: 2;
+}
+
+.inverse {
+    border: 1px solid #DAA520;
+    padding: 8px 5px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    color: #DAA520;
+}
+
+.inverse-on {
+    background-color: #DAA520;
+    color: #fff;
+}
+
+.all-pools {
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.pool-box {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 8px;
+}
+
+.card-box, .card-box img {
+    width: 60px;
+    height: 60px;
+}
+
+.card-box-picked {
+    filter: grayscale(100%);
+}
+
+.pool-title {
+    padding-left: 8px;
+    word-break: keep-all;
+    min-width: 80px;
+    padding-bottom: 2px;
+}
+
+footer {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1rem;
+    font-size: .9em;
+}
+
+.pv-box, .uv-box, .footer-copyright-box {
+    padding: 0 5px;
+}
+
+.pv-box span, .uv-box span{
+    padding: 0 2px;
+}
+
+.pv-box i, .uv-box i{
+    vertical-align: sub;
+    font-size: 1.3em;
+}
+
+.modal .modal-footer {
+    color: #BDBDBD;
+    background: transparent;
+}
+
+input#share-link-buf {
+    text-align: center;
+    color: #BDBDBD;
+}
+
+/* mobile */
+@media only screen and (max-width: 425px){ 
+    .title-box, .all-pools {
+        width: 95%;
+    }
+
+    .pool-title {
+        min-width: unset;
+    }
+
+    .pop-up-box-on {
+        max-width: 95% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){ 
+    .title-box, .all-pools {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px){ 
+    .title-box, .all-pools {
+        width: 70%;
+    }
+}
+
+/* special style */
+#pool-6 {
+    width: 100%;
+}
