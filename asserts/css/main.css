@@ -133,6 +133,10 @@ input#share-link-buf {
     color: #BDBDBD;
 }
 
+#info-modal .modal-close {
+    display: none;
+}
+
 /* mobile */
 @media only screen and (max-width: 425px){ 
     .title-box, .all-pools {

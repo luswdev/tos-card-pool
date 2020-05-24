@@ -387,6 +387,11 @@
             "exec": "share",
             "icon": "share",
             "title": "分享選取結果？"
+        },
+        {
+            "exec": "info",
+            "icon": "info",
+            "title": "關於作者"
         }
     ]
 }
