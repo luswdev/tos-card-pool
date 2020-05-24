@@ -133,7 +133,7 @@ input#share-link-buf {
     color: #BDBDBD;
 }
 
-#info-modal .modal-close {
+#info-modal .modal-confirm {
     display: none;
 }
 
