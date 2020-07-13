@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC:600|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@600&family=Open+Sans&display=swap');
 
 html {
     min-height: 100vh;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Open Sans', 'Noto Sans TC', sans-serif;
 }
 
 :focus {
@@ -103,11 +103,9 @@ body, main {
 }
 
 footer {
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
     padding: 20px;
     margin-top: 1rem;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .pv-box, .uv-box, .footer-copyright-box {
