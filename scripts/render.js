@@ -13,6 +13,8 @@ $(document).ready( function () {
     $.getJSON('/data/config.json', function(json) {
         var card_id = 0;
 
+        window.title += ' - ' + json.gen
+
         let title = new Vue({
             el: '#title-vue',
             data: {
