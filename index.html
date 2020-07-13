@@ -2,7 +2,7 @@
 <html class="blue-grey darken-4">
 <head>
 	<title>古幣封印</title>
-    <link rel="icon" type="image/png" href="/asserts/img/favicon.png">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <meta charset="UTF-8">
     <meta name="theme-color" content="#263238">
     <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -30,7 +30,7 @@
     </script>
 
     <!-- User Sources -->
-    <link rel="stylesheet" type="text/css" href="/asserts/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
 </head>
 <body>
     <div class="modals" id="modal-vue">
@@ -86,7 +86,7 @@
             <div class="all-pools flex" id="pools-vue">
                 <div v-for="(pool, index) in pools" class="pool-box flex" :id="'pool-'+index">
                     <div v-for="card in pool.cards" class="card-box flex pointer tooltipped" v-bind:class="is_picked(get_id())" :id="'card-' + increment()" data-position="bottom" :data-tooltip="card.name">
-                        <img :src="'/data/icon/' + card.no + '.png'" :alt="card.no"/>
+                        <img :src="'/images/icon/' + card.no + '.png'" :alt="card.no"/>
                     </div>
                     <div class="grey-text text-lighten-1 pool-title flex"><span>{{pool.series}}</span></div>    
                 </div>
@@ -101,6 +101,6 @@
         </div>
     </footer>
 
-    <script src="/asserts/js/render.js"></script>
+    <script src="/scripts/render.js"></script>
 </body>
 </html>
