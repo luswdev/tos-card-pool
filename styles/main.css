@@ -103,9 +103,9 @@ body, main {
 }
 
 footer {
-    padding: 20px;
-    margin-top: 1rem;
     font-size: .8em;
+    margin: 1rem auto;
+    width: 50%;
 }
 
 .pv-box, .uv-box, .footer-copyright-box {
@@ -136,8 +136,7 @@ input#share-link-buf {
 }
 
 footer {
-    margin: auto;
-    width: 50%;
+
 }
 
 /* mobile */
